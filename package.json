@@ -1,0 +1,38 @@
+{
+	"name": "discord-notifier-template",
+	"version": "1.0.0",
+	"private": true,
+	"description": "Template for creating a Discord notifier",
+	"main": "index.js",
+	"scripts": {
+		"start": "node index.js",
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"lint": "eslint ."
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/knutkirkhorn/discord-notifier-template.git"
+	},
+	"keywords": [
+		"notifier",
+		"docker"
+	],
+	"author": "Knut Kirkhorn",
+	"type": "module",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/knutkirkhorn/discord-notifier-template/issues"
+	},
+	"homepage": "https://github.com/knutkirkhorn/discord-notifier-template#readme",
+	"dependencies": {
+		"discord-webhook-wrapper": "^1.0.2",
+		"discord.js": "^14.11.0",
+		"dotenv": "^16.3.1"
+	},
+	"devDependencies": {
+		"eslint": "^8.43.0",
+		"eslint-config-airbnb-base": "^15.0.0",
+		"eslint-plugin-import": "^2.27.5",
+		"eslint-plugin-unicorn": "^47.0.0"
+	}
+}
